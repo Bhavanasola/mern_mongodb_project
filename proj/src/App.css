@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #bdca89;
+}
+
+.form-container {
+  max-width: 700px;
+  margin: 50px auto;
+  background-color: rgb(142, 243, 165);
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(172, 163, 39, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #202124;
+  margin-bottom: 30px;
+}
+
+.users-table {
+  margin-top: 30px;
+}
+
+.users-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.users-table th, .users-table td {
+  border: 1px solid #c04d8c;
+  padding: 10px;
+  text-align: left;
+}
+
+.users-table th {
+  background-color: #2b8bbc;
+}
+
+.users-table tr:hover {
+  background-color: #446398;
+}
+
+.users-table button {
+  padding: 5px 10px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.users-table button:hover {
+  background-color: #bdc3ca;
+}

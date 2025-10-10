@@ -1,0 +1,18 @@
+.submit-row {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.submit-row button {
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: #cb1818;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-row button:hover {
+  background-color: #a00c0c;
+}

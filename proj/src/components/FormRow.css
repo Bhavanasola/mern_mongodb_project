@@ -1,0 +1,19 @@
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-row label {
+  width: 120px;
+  font-weight: bold;
+  color: #090909;
+}
+
+.form-row input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #07193e;
+  border-radius: 5px;
+  font-size: 14px;
+}
