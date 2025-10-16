@@ -54,3 +54,104 @@ h2 {
 .users-table button:hover {
   background-color: #bdc3ca;
 }
+.edit-container {
+  width: 50%;
+  margin: 30px auto;
+  padding: 20px;
+  border: 2px solid #007BFF;
+  border-radius: 10px;
+  background-color: #f7f9fc;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.edit-container h2 {
+  text-align: center;
+  color: #007BFF;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px;
+  vertical-align: middle;
+}
+
+label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.form-container, .edit-container, .table-container {
+  width: 60%;
+  margin: 30px auto;
+  padding: 20px;
+  border: 2px solid #007BFF;
+  border-radius: 10px;
+  background-color: #f7f9fc;
+}
+
+h2 {
+  text-align: center;
+  color: #007BFF;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #007BFF;
+  color: white;
+}
+
+input {
+  width: 100%;
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
